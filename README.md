@@ -86,4 +86,9 @@ If you delete the file, the shortcut will ask you to enter the API key again.
 
 ## Changelog
 
+- 2023-03-26 - 1.0.0 - Initial release.
 - 2023-03-26 - 1.0.1 - Fix a bug that the shortcut cannot determine empty user input properly.
+
+## Credits
+
+This project was inspired by [ChatGPT-Siri](https://github.com/Yue-Yang/ChatGPT-Siri) and it provided me with valuable assistance while working with Shortcuts.app's editor.
