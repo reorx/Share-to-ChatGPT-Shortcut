@@ -5,6 +5,7 @@ The Share to ChatGPT feature is an Apple Shortcut that allows users to share hig
 ## Installation
 
 Download and install the shortcut at:
+
 https://www.icloud.com/shortcuts/9cd41f860ef2473aa9d69931b1cb0e19
 
 ## Setup and Usage
