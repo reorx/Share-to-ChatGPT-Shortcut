@@ -42,6 +42,12 @@ Finally, let's see how to use the shortcut in action. Here's an example to use t
 | :----: |:------:|:------:|:------:|
 | <img width="200" src="images/revise/step-1.jpg" /> | <img width="200" src="images/revise/step-2.jpg" /> | <img width="200" src="images/revise/step-3.jpg" /> | <img width="200" src="images/revise/step-4.PNG" /> |
 
+## Keyboard Shortcut
+
+On MacOS, you can set a global keyboard shortcut to run this shortcut. To do this, open the "Keyboard" preference pane, select "Shortcuts", select "Services" on the left, and then select "Share to ChatGPT" in the "Shortcuts" section. You can then set a keyboard shortcut for it.
+
+![](images/keyboard-shortcut.png)
+
 
 ## Prompts
 
