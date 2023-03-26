@@ -4,9 +4,13 @@ The Share to ChatGPT feature is an Apple Shortcut that allows users to share hig
 
 ## Installation
 
-Download and install the shortcut at:
+The shortcut is released on RoutineHub, you can install it from there:
 
-https://www.icloud.com/shortcuts/9cd41f860ef2473aa9d69931b1cb0e19
+https://routinehub.co/shortcut/14636/
+
+Or install from the direct link on iCloud:
+
+https://www.icloud.com/shortcuts/612139e1d1f1416d858d49b638fc14d6
 
 ## Setup and Usage
 
@@ -93,8 +97,9 @@ If you delete the file, the shortcut will ask you to enter the API key again.
 
 ## Changelog
 
-- 2023-03-26 - 1.0.0 - Initial release.
-- 2023-03-26 - 1.0.1 - Fix a bug that the shortcut cannot determine empty user input properly.
+- 2023-03-25 - [1.0.0](https://www.icloud.com/shortcuts/9cd41f860ef2473aa9d69931b1cb0e19) - Initial release.
+- 2023-03-26 - [1.0.1](https://www.icloud.com/shortcuts/ce93205ebd5a4ec89a983552963f26f8) - Fix a bug that the shortcut cannot determine empty user input properly.
+- 2023-03-26 - [1.0.2](https://www.icloud.com/shortcuts/612139e1d1f1416d858d49b638fc14d6)
 
 ## Credits
 
