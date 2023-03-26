@@ -103,13 +103,13 @@ Here's the meaning of each configuration item:
 
 ## Changelog
 
-- 2023-03-25 - [1.0.0](https://www.icloud.com/shortcuts/9cd41f860ef2473aa9d69931b1cb0e19) - Initial release.
-- 2023-03-26 - [1.0.1](https://www.icloud.com/shortcuts/ce93205ebd5a4ec89a983552963f26f8) - Fix a bug that the shortcut cannot determine empty user input properly.
-- 2023-03-26 - [1.0.2](https://www.icloud.com/shortcuts/612139e1d1f1416d858d49b638fc14d6) - Enhance error output.
-- 2023-03-26 - [1.1.0](https://www.icloud.com/shortcuts/e4b04e34183a4d288b5880c0515ea673)
+- [1.0.0](https://www.icloud.com/shortcuts/9cd41f860ef2473aa9d69931b1cb0e19) - Initial release.
+- [1.0.1](https://www.icloud.com/shortcuts/ce93205ebd5a4ec89a983552963f26f8) - Fix a bug that the shortcut cannot determine empty user input properly.
+- [1.0.2](https://www.icloud.com/shortcuts/612139e1d1f1416d858d49b638fc14d6) - Enhance error output.
+- [1.1.0](https://www.icloud.com/shortcuts/e4b04e34183a4d288b5880c0515ea673)
   - Store configuration in the shortcut setup by utilizing the "Import Questions" feature. No config file anymore.
   - Add message history support. When history file name is set, the shortcut will record messages in the history file.
-- 2023-03-26 - [1.2.0](https://www.icloud.com/shortcuts/25262952f34544e99b9e6678056c1168) - Add `model` configuration item.
+- [1.2.0](https://www.icloud.com/shortcuts/25262952f34544e99b9e6678056c1168) - Add `model` configuration item.
 
 ## Credits
 
