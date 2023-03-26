@@ -10,9 +10,9 @@ https://routinehub.co/shortcut/14636/
 
 Or install from the direct link on iCloud:
 
-https://www.icloud.com/shortcuts/e4b04e34183a4d288b5880c0515ea673
+https://www.icloud.com/shortcuts/25262952f34544e99b9e6678056c1168
 
-While installing, the shortcut will ask you to enter your OpenAI API key. If you don't have one, you can get one from the OpenAI dashboard.
+While installing, the shortcut will ask you to enter your OpenAI API key. If you don't have one, you can get it from the [OpenAI dashboard](https://platform.openai.com/account/api-keys).
 
 ## Usage
 
@@ -95,8 +95,10 @@ The configuration is stored in the shortcut, you can change them by clicking the
 ![](images/setup.jpg)
 
 Here's the meaning of each configuration item:
+
 - `API-key`: Your OpenAI API key
 - `API-base-url`: The base URL of the API endpoint. By default it's `https://api.openai.com/v1/`. You can change it to use a different API endpoint if you understand this setting.
+- `model`: The model to use for ChatGPT API. By default it's `gpt-3.5-turbo`. For a complete list see models of `/v1/chat/completions` in [Model endpoint compatibility](https://platform.openai.com/docs/models/model-endpoint-compatibility).
 - `history-file`: The file name to store messages history. The history file path would be `iCloud Drive/Shortcuts/Share-to-ChatGPT/$date/$history-file`. If omitted, messages will not be recorded.
 
 ## Changelog
@@ -107,6 +109,7 @@ Here's the meaning of each configuration item:
 - 2023-03-26 - [1.1.0](https://www.icloud.com/shortcuts/e4b04e34183a4d288b5880c0515ea673)
   - Store configuration in the shortcut setup by utilizing the "Import Questions" feature. No config file anymore.
   - Add message history support. When history file name is set, the shortcut will record messages in the history file.
+- 2023-03-26 - [1.2.0](https://www.icloud.com/shortcuts/25262952f34544e99b9e6678056c1168) - Add `model` configuration item.
 
 ## Credits
 
