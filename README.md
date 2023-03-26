@@ -10,20 +10,21 @@ https://routinehub.co/shortcut/14636/
 
 Or install from the direct link on iCloud:
 
-https://www.icloud.com/shortcuts/612139e1d1f1416d858d49b638fc14d6
+https://www.icloud.com/shortcuts/e4b04e34183a4d288b5880c0515ea673
 
-## Setup and Usage
+While installing, the shortcut will ask you to enter your OpenAI API key. If you don't have one, you can get one from the OpenAI dashboard.
 
-After installation, the shortcut will be available in the Shortcuts app. Follow the steps below to set up the shortcut:
+## Usage
+
+After installation, the shortcut will be available in the Shortcuts app. Follow the steps below to initialize the shortcut:
 
 1. Open the shortcut
-2. After clicking "Done," enter your OpenAI API key in the dialog box. You will then receive a notification that confirms the configuration path.
-3. Type something like "hello" for testing purpose, and choose a builtin prompt like "chat".
-4. Click "Allow" for every confirmation dialog. Note that you'll see a confirmation for allowing to send "1 dictionary" to "api.openai.com" the next time you run the shortcut, which looks kinda weird but is just a side-effect of storing the API key in a file, you should click "Always Allow" to make the shortcut work properly.
+2. Type something like "hello" for testing purpose, and choose a built-in prompt like "chat".
+3. Click "Allow" for every confirmation dialog.
 
-| Step 1 | Step 2 | Step 3 | Step 4 |
-| :----: |:------:|:------:|:------:|
-| <img width="200" src="images/setup/step-1.PNG" /> | <img width="200" src="images/setup/step-2.PNG" /><img width="200" src="images/setup/step-2-notification.jpg" /> | <img width="200" src="images/setup/step-3.PNG" /> | <img width="200" src="images/setup/step-4.JPEG" /> <img width="200" src="images/setup/step-4-extra.PNG" />|
+| Step 1 | Step 2 | Step 3 |
+| :----: |:------:|:------:|
+| <img width="200" src="images/init/step-1.PNG" /> | <img width="200" src="images/init/step-2.PNG" /> | <img width="200" src="images/init/step-3.JPEG" />|
 
 To create an easily accessible shortcut for daily use, follow these steps:
 
@@ -47,12 +48,19 @@ Finally, let's see how to use the shortcut in action. Here's an example to use t
 | :----: |:------:|:------:|:------:|
 | <img width="200" src="images/revise/step-1.jpg" /> | <img width="200" src="images/revise/step-2.jpg" /> | <img width="200" src="images/revise/step-3.jpg" /> | <img width="200" src="images/revise/step-4.PNG" /> |
 
-## Keyboard Shortcut
+## Accessibility
+
+### Keyboard Shortcut
 
 On MacOS, you can set a global keyboard shortcut to run this shortcut. To do this, open the "Keyboard" preference pane, select "Shortcuts", select "Services" on the left, and then select "Share to ChatGPT" in the "Shortcuts" section. You can then set a keyboard shortcut for it.
 
 ![](images/keyboard-shortcut.png)
 
+### iPhone Back Tap
+
+Run this shortcut by tapping the back of your iPhone: 1. On your iPhone, go to Settings > Accessibility > Touch. 2. Scroll down, then select Back Tap. 3. Select either Double Tap or Triple Tap. 4. Scroll down to the Shortcuts area, then choose Rephrase With GPT.
+
+Tap Back Tap to apply the setting.
 
 ## Prompts
 
@@ -82,25 +90,25 @@ You can also add your own prompts by editing the shortcut.
 
 ## Configuration
 
-The configuration file is stored in the iCloud Drive, the location is: `Shortcuts/Share-to-ChatGPT/config.json`. The content is as follows:
+The configuration is stored in the shortcut, you can change them by clicking the "…" sign of this shortcut in the Shortcuts app, and then click the ⓘ symbol at the bottom of the screen, and then click "Customize Shortcut" to open the configuration dialog.
 
-```json
-{
-  "api_key": "sk-**************",
-  "api_base_url": "https://api.openai.com/v1/"
-}
-```
+![](images/setup.jpg)
 
-you can change the `api_base_url` to use a different API endpoint if you want.
-
-If you delete the file, the shortcut will ask you to enter the API key again.
+Here's the meaning of each configuration item:
+- `API-key`: Your OpenAI API key
+- `API-base-url`: The base URL of the API endpoint. By default it's `https://api.openai.com/v1/`. You can change it to use a different API endpoint if you understand this setting.
+- `history-file`: The file name to store messages history. The history file path would be `iCloud Drive/Shortcuts/Share-to-ChatGPT/$date/$history-file`. If omitted, messages will not be recorded.
 
 ## Changelog
 
 - 2023-03-25 - [1.0.0](https://www.icloud.com/shortcuts/9cd41f860ef2473aa9d69931b1cb0e19) - Initial release.
 - 2023-03-26 - [1.0.1](https://www.icloud.com/shortcuts/ce93205ebd5a4ec89a983552963f26f8) - Fix a bug that the shortcut cannot determine empty user input properly.
-- 2023-03-26 - [1.0.2](https://www.icloud.com/shortcuts/612139e1d1f1416d858d49b638fc14d6)
+- 2023-03-26 - [1.0.2](https://www.icloud.com/shortcuts/612139e1d1f1416d858d49b638fc14d6) - Enhance error output.
+- 2023-03-26 - [1.1.0](https://www.icloud.com/shortcuts/e4b04e34183a4d288b5880c0515ea673)
+  - Store configuration in the shortcut setup by utilizing the "Import Questions" feature. No config file anymore.
+  - Add message history support. When history file name is set, the shortcut will record messages in the history file.
 
 ## Credits
 
-This project was inspired by [ChatGPT-Siri](https://github.com/Yue-Yang/ChatGPT-Siri) and it provided me with valuable assistance while working with Shortcuts.app's editor.
+- This project was inspired by [ChatGPT-Siri](https://github.com/Yue-Yang/ChatGPT-Siri) and it provided me with valuable assistance while working with Shortcuts.app's editor.
+- [Rephrase With GPT](https://routinehub.co/shortcut/14625/) is a similar shortcut focuses on rephrasing text. It's a great shortcut and I highly recommend it.
